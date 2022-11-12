@@ -66,7 +66,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.example.prueba.PruebaApplication</mainClass>
+							<mainClass>com.example.webserviceproducer.WebProducerService</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>

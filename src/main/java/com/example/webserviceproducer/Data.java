@@ -1,6 +1,6 @@
-package com.example.prueba;
+package com.example.webserviceproducer;
 
-public class It {
+public class Data {
 
     private int idPlatformOrigin;
     private int idCoin;
@@ -11,8 +11,9 @@ public class It {
     private String nameClient;
     private int idClient;
 
-    public It(){}
-    public It(int idPlatformOrigin, int idCoin, int idPlatfomDestiny, int idProducto, double mount, int quantity, String nameClient, int idClient) {
+    public Data(){}
+
+    public Data(int idPlatformOrigin, int idCoin, int idPlatfomDestiny, int idProducto, double mount, int quantity, String nameClient, int idClient) {
         this.idPlatformOrigin = idPlatformOrigin;
         this.idCoin = idCoin;
         this.idPlatfomDestiny = idPlatfomDestiny;
@@ -22,6 +23,7 @@ public class It {
         this.nameClient = nameClient;
         this.idClient = idClient;
     }
+
 
     public int getIdPlatformOrigin() {
         return idPlatformOrigin;

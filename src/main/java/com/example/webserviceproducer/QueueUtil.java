@@ -1,4 +1,4 @@
-package com.example.prueba;
+package com.example.webserviceproducer;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.command.ActiveMQQueue;

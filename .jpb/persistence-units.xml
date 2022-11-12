@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="com.example.prueba" />
+          <package value="com.example.webserviceproducer" />
         </packages>
       </persistence-unit>
     </persistence-units>
