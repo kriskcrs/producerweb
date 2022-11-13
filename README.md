@@ -74,7 +74,7 @@ docker run --network=netlb --ip=165.168.1.21 -p 4044:4042 -it serviceget:v1
 --- pruebas ---
 
 post
-http://165.168.1.18:80/service/enviarDatos
+http://165.168.1.15:4040/service/enviarDatos
 {
     "idPlatformOrigin":1,
     "idCoin": 1,
